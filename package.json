@@ -1,0 +1,15 @@
+{
+  "name": "responsive_op",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "node-sass": "^4.9.4",
+    "nodemon": "^2.0.6"
+  }
+}
